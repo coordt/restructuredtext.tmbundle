@@ -147,8 +147,6 @@
 							<string>punctuation.definition.italic.restructuredtext</string>
 						</dict>
 					</dict>
-					<key>comment</key>
-					<string>strong emphasis</string>
 					<key>match</key>
 					<string>(\*\*)[^*]+(\*\*)</string>
 					<key>name</key>
@@ -168,8 +166,6 @@
 							<string>punctuation.definition.italic.restructuredtext</string>
 						</dict>
 					</dict>
-					<key>comment</key>
-					<string>emphasis</string>
 					<key>match</key>
 					<string>(\*)\w[^*]+\w(\*)</string>
 					<key>name</key>
@@ -638,8 +634,6 @@
 							<string>punctuation.definition.comment.restructuredtext</string>
 						</dict>
 					</dict>
-					<key>comment</key>
-					<string>comment</string>
 					<key>end</key>
 					<string>$\n?</string>
 					<key>name</key>
@@ -704,8 +698,6 @@
 							<string>punctuation.definition.table.restructuredtext</string>
 						</dict>
 					</dict>
-					<key>comment</key>
-					<string>table</string>
 					<key>match</key>
 					<string>\+-[+-]+</string>
 					<key>name</key>
@@ -720,8 +712,6 @@
 							<string>punctuation.definition.table.restructuredtext</string>
 						</dict>
 					</dict>
-					<key>comment</key>
-					<string>table</string>
 					<key>match</key>
 					<string>\+=[+=]+</string>
 					<key>name</key>
