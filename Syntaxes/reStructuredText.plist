@@ -114,7 +114,7 @@
 					<key>comment</key>
 					<string>directives</string>
 					<key>match</key>
-					<string>(\.\.)\s([A-z][A-z0-9-_]+)(::)\s*$</string>
+					<string>(\.\.)\s([A-z][-A-z0-9_]+)(::)\s*$</string>
 					<key>name</key>
 					<string>meta.other.directive.restructuredtext</string>
 				</dict>
@@ -145,7 +145,7 @@
 					<key>comment</key>
 					<string>directives with arguments</string>
 					<key>match</key>
-					<string>(\.\.)\s([A-z][A-z0-9-_]+)(::)\s+(.+?)\s*$</string>
+					<string>(\.\.)\s([A-z][-A-z0-9_]+)(::)\s+(.+?)\s*$</string>
 					<key>name</key>
 					<string>meta.other.directive.restructuredtext</string>
 				</dict>
